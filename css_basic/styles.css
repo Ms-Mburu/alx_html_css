@@ -1,4 +1,4 @@
-body {
+.works_on_smartphone {
   display: flex;
   flex-direction: column;
   height: 100vh;
@@ -51,4 +51,15 @@ aside {
   padding: 1rem;
   border-radius: 8px;
   box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+/* Responsive layout for smaller screens */
+@media (max-width: 768px) {
+  main {
+    flex-direction: column;
+  }
+
+  article, aside {
+    flex: 1;
+    width: 100%;
+  }
 }
