@@ -221,57 +221,37 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.contact-content {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
   font-family: 'Source Sans Pro', sans-serif;
-  color: #FFFFFF;
-  text-align: center;
-  width: 60%;
 }
 
-.contact-content h2 {
+.contact-stack {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+}
+
+.contact-stack h2 {
   font-size: 32px;
   font-weight: bold;
   margin-bottom: 30px;
-  color: #FFFFFF;
 }
 
-.contact-form {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  width: 100%;
-}
-
-.contact-form label {
+.contact-stack p {
   font-size: 14px;
-  font-weight: normal;
-  color: #FFFFFF;
-  text-align: left;
+  margin: 10px 0;
 }
 
-.contact-form input,
-.contact-form textarea {
-  padding: 10px;
-  border: none;
-  border-radius: 4px;
-  width: 100%;
-  font-family: 'Source Sans Pro', sans-serif;
-}
-
-cta-rectangle {
+.cta-button {
+  margin-top: 30px;
   background-color: #FF6565;
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 12px 24px;
+  border: none;
   border-radius: 22px;
-  width: 166px;
-  height: 44px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-.cta-button:hover {
-  background-color: #a85ed9;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
