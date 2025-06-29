@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.hero-desktop {
+  width: 1400px;
+  height: 800px;
+  background-image: url('images/headphones_hero_1.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+
+.hero-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 60px;
+}
+
+.logo-left img {
+  height: 40px;
+}
+
+.right-nav a {
+  color: #FFFFFF;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  text-decoration: none;
+  margin-left: 30px;
+}
+
+.right-nav a:first-child {
+  margin-left: 0;
+}
+.hero-text {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.hero-text h1 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  color: #FFFFFF;
+  margin-top: 300px;
+  margin-bottom: 10px;
+}
+
+.hero-text .subtitle {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #FFFFFF;
+}
+
+.cta-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 8px;
+}
+
+.cta-rectangle {
+  background-color: #FF6565;
+  border-radius: 22px;
+  width: 166px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cta-rectangle span {
+  color: #FFFFFF;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.final-paragraph {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #FFFFFF;
+  text-align: center;
+  margin-top: 40px;
+  max-width: 900px;
+  line-height: 1.6;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero-mobile {
+  width: 768px;
+  height: 800px;
+  background-image: url('images/headphones_hero_1.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0 auto; /* centers it on the page */
+  margin-top: 200px;
+}
